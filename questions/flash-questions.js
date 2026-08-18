@@ -13,7 +13,7 @@ window.FLASH_QUESTIONS = [
       { type: "tex", content: String.raw`\int_0^4 \sqrt[3]{x}\,dx` }
     ],
     answer: String.raw`3\sqrt[3]{4}`,
-    answerValue: 3 * Math.cbrt(4)
+    exactAnswer: { rational: [0, 1], radicals: [{ coefficient: [3, 1], index: 3, radicand: 4 }] },
   },
   {
     id: "chem-001",
@@ -24,7 +24,7 @@ window.FLASH_QUESTIONS = [
       { type: "text", content: "この1分子に含まれる原子の総数は？" }
     ],
     answer: String.raw`5`,
-    answerValue: 5,
+    exactAnswer: { rational: [5, 1], radicals: [] },
     explanation: "Caが1個、Oが2個、Hが2個"
   },
   {
@@ -36,7 +36,7 @@ window.FLASH_QUESTIONS = [
       { type: "text", content: "生成物側の水分子の係数は？" }
     ],
     answer: String.raw`2`,
-    answerValue: 2
+    exactAnswer: { rational: [2, 1], radicals: [] },
   },
   {
     id: "structure-image-001",
@@ -47,7 +47,7 @@ window.FLASH_QUESTIONS = [
       { type: "text", content: "この構造式に含まれる炭素原子の数は？" }
     ],
     answer: String.raw`2`,
-    answerValue: 2
+    exactAnswer: { rational: [2, 1], radicals: [] },
   },
   {
     id: "limit-001",
@@ -58,6 +58,6 @@ window.FLASH_QUESTIONS = [
       { type: "tex", content: String.raw`\lim_{x\to 0}\frac{\sin x}{x}` }
     ],
     answer: String.raw`1`,
-    answerValue: 1
+    exactAnswer: { rational: [1, 1], radicals: [] },
   }
 ];
