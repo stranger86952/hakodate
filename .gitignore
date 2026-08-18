@@ -1,0 +1,19 @@
+.DS_Store
+.vscode/
+.idea/
+node_modules/
+dist/
+.env*
+*.log
+
+# Documentation/source notes not needed for publishing
+README
+README.*
+**/README
+**/README.*
+*_README.md
+**/*_README.md
+
+# macOS archive metadata
+__MACOSX/
+._*
