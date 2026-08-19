@@ -179,3 +179,15 @@ body.lightbox-open{overflow:hidden}
   vertical-align: baseline;
   line-height: normal;
 }
+
+
+/* v18: unified Markdown-like question and explanation format */
+.rich-paragraph{width:100%;margin:.35em 0;line-height:1.65;text-align:center}
+.flash-question>.rich-paragraph:first-child,.answer-question-preview>.rich-paragraph:first-child{font-size:clamp(17px,4.3vw,21px);font-weight:800}
+.flash-question .rich-display{width:100%;font-size:clamp(21px,6vw,32px)}
+.answer-question-preview .rich-display{width:100%;font-size:clamp(16px,4.2vw,20px)}
+.rich-image{display:block;max-width:min(100%,560px);max-height:230px;object-fit:contain;margin:8px auto}
+.answer-question-preview .rich-image{max-height:120px}
+.answer-explanation .rich-paragraph,.answer-value>.rich-paragraph{font-size:clamp(15px,3.8vw,17px)}
+.answer-value>.rich-paragraph{max-width:42rem;margin:8px auto}
+.rich-paragraph .inline-math{margin:0 .12em}
