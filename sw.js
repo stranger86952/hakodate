@@ -1,4 +1,4 @@
-const C = 'hakodate-v18';
+const C = 'hakodate-v20';
 
 const A = [
   './',
@@ -19,6 +19,8 @@ const A = [
   './icons/icon-512.png?v=4',
   './questions/flash-questions.js',
   './assets/offline-map.jpeg',
+  './assets/hotel/schedule.png',
+  './assets/hotel/busmap.png',
   './assets/questions/flash/Triangulene.svg',
   './assets/questions/flash/Coronene.svg',
   './assets/tourism/aynu.webp',
