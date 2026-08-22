@@ -1,4 +1,4 @@
-const C = 'hakodate-v20';
+const C = 'hakodate-v21';
 
 const A = [
   './',
